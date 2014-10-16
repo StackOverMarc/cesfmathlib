@@ -4,7 +4,9 @@ import cesf.math.Matrix;
 
 public class TestMatrix {
 
-    // programa de prova per a matrius
+    /** 
+     * programa de prova per a matrius
+     */
     public static void main(String[] args) {
         double[][] d = { { 1, 2, 3 }, { 4, 5, 6 }, { 9, 1, 3} };
         Matrix D = new Matrix(d);
@@ -33,13 +35,13 @@ public class TestMatrix {
         System.out.println(B.multiply(A));
         System.out.println();
 
-        // hauria de ser fals: A*B != B*A en general    
+        /** hauria de ser fals: A*B != B*A en general */    
         System.out.println(A.multiply(B).equals(B.multiply(A)));
         System.out.println();
 
-        //  x +  y +  z = -2
-        // 2x +  y -  z =  1
-        //  x + 2y + 3z = -6
+        /**  x +  y +  z = -2 */
+        /** 2x +  y -  z =  1 */
+        /**  x + 2y + 3z = -6 */
         double[][] e = { {1, 1, 1}, {2, 1, -1}, {1, 2, 3} }; 
         Matrix E = new Matrix(e);
         double[][] f = { {-2}, {1}, {-6} };

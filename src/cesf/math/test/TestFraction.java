@@ -3,7 +3,9 @@ package cesf.math.test;
 import cesf.math.Fraction;
 
 public class TestFraction {
-
+    /** 
+     * Test de fraccio.
+     */
 	public static void main(String[] args) {
 		
 		Fraction f1 = new Fraction(24, -42);
