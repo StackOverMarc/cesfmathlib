@@ -15,6 +15,8 @@ public Complex add(Complex b) {
        }   
   ```   
 Podem veure com crida a unes variables definides re "a+b" que serà igual a la part real del nombre complex i ia+ib que serà igual a la part imaginaria del          nombre complex.   
+
+
 Si tens més dubtes **`Complex.java`**   
   ---  
 
